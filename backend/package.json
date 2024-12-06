@@ -1,0 +1,12 @@
+{
+    "name": "dungndrag-backend",
+    "version": "0.0.1",
+    "private": true,
+    "author": {"name": "nabsa"},
+    "dependencies": {
+      "aws-cdk-lib": "^2.171.1",
+      "constructs": "^10.4.2",
+      "esbuild": "^0.24.0"
+    }
+  }
+  

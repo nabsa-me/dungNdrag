@@ -1,0 +1,27 @@
+{
+    "name": "dungndrag",
+    "version": "0.0.1",
+    "private": true,
+    "author": {
+        "name": "nabsa"
+    },
+    "scripts": {
+        "setup": "npm i && cd ./backend && npm i && cd ../frontend && npm i",
+        "check": "npx npm-check-updates",
+        "update": "npx npm-check-updates -u"
+    },
+    "dependencies": {
+        "@types/node": "^22.10.1",
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.10.1",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.37.2",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "prettier": "^2.5.1",
+        "prettier-eslint": "^16.3.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
+}

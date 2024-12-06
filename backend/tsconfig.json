@@ -1,0 +1,13 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs",
+      "lib": ["es2018"],
+      "typeRoots": ["./node_modules/@types", "../node_modules/@types"]
+    },
+    "ts-node": {
+      "esm": true
+    }
+  }
+  
